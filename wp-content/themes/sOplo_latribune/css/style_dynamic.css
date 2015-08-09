@@ -2,16 +2,159 @@
 
 
 
+    h1,h2,h3,h4,h5,h6,
+    h1 a,
+    h2 a,
+    h3 a,
+    h4 a,
+    h5 a,
+    h6 a
+    a,
+    p a,
+    nav.main_menu>ul>li.active > a,
+    .drop_down .wide .second ul li ul li.menu-item-has-children > a,
+    .drop_down .wide .second ul li ul li.menu-item-has-children > a:hover,
+    .title h1,
+    .q_icon_list p,
+    .q_progress_bars_vertical .progress_number,
+    .qbutton,
+	.vc_grid-container .vc_row.vc_grid .vc_grid-item .vc_btn,
+	.vc_grid-container .vc_row.vc_grid .vc_pageable-load-more-btn .vc_btn:hover,
+	.post-password-form input[type='submit'],
+    .load_more a,
+    .blog_load_more_button a,
+    #submit_comment,
+    .drop_down .wide .second ul li .qbutton,
+    .drop_down .wide .second ul li ul li .qbutton,
+    .q_percentage,
+    .portfolio_navigation .portfolio_prev a:hover,
+    .portfolio_navigation .portfolio_next a:hover,
+    .q_tabs .tabs-nav li.active a,
+    .q_accordion_holder.accordion .ui-accordion-header,
+    .q_accordion_holder.accordion.with_icon .ui-accordion-header,
+    .testimonials .testimonial_text_inner p.testimonial_author,
+    .testimonial_content_inner .testimonial_author .website,
+    .q_icon_with_title .icon_with_title_link:hover,
+    .ordered ol li,
+    .q_list.circle ul>li,
+    .q_list.number ul>li,
+    .latest_post_holder .latest_post_date .post_publish_month,
+    .latest_post_inner .post_infos a,
+    .latest_post_holder.dividers .latest_post_date .latest_post_day,
+    .q_masonry_blog article.format-quote .q_masonry_blog_post_text p,
+    .q_masonry_blog article.format-link .q_masonry_blog_post_text p,
+    .q_masonry_blog article .q_masonry_blog_post_info,
+    .blog_holder article.format-quote .post_text .post_title p,
+    .blog_holder article.format-link .post_text .post_title p,
+    .single_links_pages span,
+    .single_links_pages a:hover span,
+    .comment_holder .comment .text .name,
+    .blog_holder.masonry article .post_info,
+    .pagination ul li span,
+    .pagination ul li a:hover,
+    .q_team .q_team_description_inner p,
+    .carousel-inner .item.dark .slider_content .text .qbutton,
+    .carousel-control,
+	.more_facts_button,
+
+    	.carousel-control:hover,
+    input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+        color: #3b3b3b;
+    }
+
+    .qbutton,
+	.vc_grid-container .vc_row.vc_grid .vc_grid-item .vc_btn,
+	.vc_grid-container .vc_row.vc_grid .vc_pageable-load-more-btn .vc_btn:hover,
+	.post-password-form input[type='submit'],
+    .load_more a,
+    .blog_load_more_button a,
+    #submit_comment,
+    .drop_down .wide .second ul li .qbutton,
+    .drop_down .wide .second ul li ul li .qbutton,
+    .testimonials_holder .flex-direction-nav a,
+    .header_top #lang_sel ul li ul li a,
+    .header_top #lang_sel ul li ul li a:visited,
+    .header_top #lang_sel_click ul li ul li a,
+    .header_top #lang_sel_click ul li ul li a:visited,
+
+    	.carousel-inner .item.dark .slider_content .text .qbutton,
+    input.wpcf7-form-control.wpcf7-submit:not([disabled]) {
+        border-color: #3b3b3b;
+    }
+
+    .ajax_loader .pulse,
+    .ajax_loader .double_pulse .double-bounce1, .ajax_loader .double_pulse .double-bounce2,
+    .ajax_loader .cube,
+    .ajax_loader .rotating_cubes .cube1, .ajax_loader .rotating_cubes .cube2,
+    .ajax_loader .stripes > div,
+    .ajax_loader .wave > div,
+    .ajax_loader .two_rotating_circles .dot1, .ajax_loader .two_rotating_circles .dot2,
+    .ajax_loader .five_rotating_circles .container1 > div, .ajax_loader .five_rotating_circles .container2 > div, .ajax_loader .five_rotating_circles .container3 > div,
+    .separator.small,
+    .testimonials_holder .flex-direction-nav a:hover,
+    .q_price_table .price_table_inner,
+    .carousel-inner .item.dark .slider_content .text .qbutton:hover,
+    .vertical_menu_hidden_button_line,
+    .vertical_menu_hidden_button_line:after,.vertical_menu_hidden_button_line:before,
+	.blog_vertical_loop_button .button_icon a,
+	.blog_vertical_loop_back_button .button_icon a
+
+     {
+        background-color: #3b3b3b;
+    }
+
+
+
+
+
+    .portfolio_navigation .portfolio_prev a:hover,
+    .portfolio_navigation .portfolio_next a:hover,
+    .q_tabs.vertical .tabs-nav li.active a,
+    .q_tabs.vertical.left .tab-content,
+    .q_tabs.vertical.right .tab-content,
+    .q_tabs.boxed .tabs-nav li.active a,
+    .q_tabs.boxed .tabs-container,
+    .q_accordion_holder.accordion .ui-accordion-header .accordion_mark,
+    .single_links_pages span,
+    .single_links_pages a:hover span,
+    .pagination ul li span,
+    .pagination ul li a:hover,
+    .service_table_inner li {
+        border-color: #ee223e    }
+
+    .q_progress_bar .progress_content_outer,
+    .q_progress_bars_vertical .progress_content_outer,
+    .portfolio_navigation .portfolio_prev a:hover,
+    .portfolio_navigation .portfolio_next a:hover,
+    .q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark,
+    .q_accordion_holder.accordion.boxed .ui-accordion-header,
+    .q_social_icon_holder .fa-stack,
+    .single_links_pages span,
+    .single_links_pages a:hover span,
+    .pagination ul li span,
+    .pagination ul li a:hover,
+    .q_circles_holder .q_circle_inner2 {
+        background-color: #ee223e    }
 
     body{
     	    	    	font-family: 'Lato', sans-serif;
     	    	    	    	    }
     
+.header_bottom,
+.header_top,
+.fixed_top_header .bottom_header{
+	background-color: rgba(255,255,255,1);
+}
 
 
 
 
 
+
+
+header.sticky .header_bottom{
+	background-color: rgba(255,255,255,1) !important;
+}
 
 
 
@@ -29,7 +172,7 @@
 
         header.fixed_hiding .q_logo a,
         header.fixed_hiding .q_logo{
-            max-height: 0px;
+            max-height: 52px;
         }
 
 
@@ -148,7 +291,10 @@
 
 
 
-
+	.vertical_menu_area{
+		text-align:left;
+	}
+	
 
 
 
