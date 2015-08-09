@@ -1,2 +1,2 @@
-# desarrollosoplo.com-git_projects-la-tribune
+# La Tribune
 Projet soplo
