@@ -1,4 +1,12 @@
 
+    /* Webkit */
+    ::selection {
+    background: #ee223e;
+    }
+    /* Gecko/Mozilla */
+    ::-moz-selection {
+    background: #ee223e;
+    }
 
 
 
@@ -136,10 +144,58 @@
     .q_circles_holder .q_circle_inner2 {
         background-color: #ee223e    }
 
+
+    .q_icon_with_title span.fa-stack i:last-child,
+    .q_box_holder.with_icon span.fa-stack i:last-child,
+    .q_masonry_blog article.format-quote .q_masonry_blog_post_text i.qoute_mark,
+    .q_masonry_blog article.format-link .q_masonry_blog_post_text i.link_mark,
+    .q_masonry_blog article .quote_author,
+    .blog_holder article.format-quote .post_text i.qoute_mark,
+    .blog_holder article.format-link .post_text i.link_mark,
+    .blog_holder article.format-quote .post_text .quote_author,
+    .blog_holder.blog_large_image_with_dividers article.format-quote .post_text span.qoute_mark,
+    .blog_holder.blog_large_image_with_dividers article.format-link .post_text span.link_mark,
+    .blog_holder.blog_large_image_with_dividers article.format-quote .post_text .quote_author,
+    .animated_icon_inner i {
+        color: #ffffff    }
+
+    .q_box_holder.with_icon,
+    .q_icon_with_title .icon_holder .fa-stack,
+    .box_holder_icon_inner .fa-stack,
+    .q_font_awsome_icon_square,
+    .q_font_awsome_icon_stack i.fa-stack-base,
+    .animated_icon_inner i {
+        border-color: #ffffff    }
+
+    
     body{
     	    	    	font-family: 'Lato', sans-serif;
     	    	    	    	    }
-    
+            body,
+		.wrapper,
+        .content,
+        .full_width,
+        .overlapping_content .content > .container,
+		.more_facts_holder,
+		.comment_holder .comment #respond textarea,
+		.comment_holder .comment #respond input[type='text'],
+		.content .container
+		{
+        	background-color:#ffffff;
+        }
+		.angled-section polygon{
+			fill: #ffffff;
+		}
+    .projects_holder article .portfolio_description,
+.blog_holder.masonry article .post_text .post_text_inner,
+.blog_holder.masonry_full_width article .post_text .post_text_inner,
+.q_team,
+.price_table_inner,
+.latest_post_holder.boxes > ul > li,
+.q_counter_holder.boxed_counter {
+	background-color: #ffffff;
+}
+
 .header_bottom,
 .header_top,
 .fixed_top_header .bottom_header{
@@ -270,21 +326,21 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
 	{
 	
     
-		font-size: 10pxpx; 				font-style: normal; 		font-weight: 900; 			border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 			text-transform: uppercase; 	 border-width: 0px;	}
+		font-size: 13pxpx; 				font-style: normal; 		font-weight: 900; 			border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 			text-transform: uppercase; 	 border-width: 0px;	}
 
 
 	.qbutton.small{
 
-								border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
+		font-size: 13px; 							border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
 	}
 	.qbutton.large{
 
-								border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
+		font-size: 13px; 							border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
 	}
 	.qbutton.big_large,
 	.qbutton.big_large_full_width {
 
-								border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
+		font-size: 13px; 		line-height: 39px; 		height: 39px; 					border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
 	}
 	.qbutton.white{
 

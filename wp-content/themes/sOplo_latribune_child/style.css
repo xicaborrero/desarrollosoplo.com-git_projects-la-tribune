@@ -43,4 +43,19 @@ Template: sOplo_latribune
 .carousel-inner .slider_content .thumb img {
 	margin-bottom: 30px;
 }
+.image_with_text img {
+	margin: 0;
+	display: inline-block;
+}
+.image_with_text {
+	text-align: center;
+}
+.image_with_text  p {
+	line-height: 18px;
+	color: #3b3b3b;
+}
+.image_with_text h1, .image_with_text h2, .image_with_text h3, .image_with_text h4, .image_with_text h5 {
+	font-weight: bold;
+}
+
 /* Diana Borrero - Lunes 10 de agosto */
