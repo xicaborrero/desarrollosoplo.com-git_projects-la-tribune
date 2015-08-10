@@ -10,6 +10,9 @@ Template: sOplo_latribune
 
 
 
+
+/* Diana Borrero - Lunes 10 de agosto */
+
 .lt_txt_white {
 	color: #fff;
 }
@@ -23,3 +26,21 @@ Template: sOplo_latribune
 	background-color: #ee223e;
 	color: #fff;
 }
+.slider_content_outer .qbutton.white {
+	background-color: #373737;
+	color: #fff;
+}
+.qbutton.green:hover, .qbutton.white:hover {
+	background-color: #ffffff;
+	color: #373737;
+}
+.carousel-inner h2, .carousel-inner .q_slide_subtitle {
+	font-weight: normal;
+}
+.carousel-inner .q_slide_subtitle span {
+	margin-bottom: 0;
+}
+.carousel-inner .slider_content .thumb img {
+	margin-bottom: 30px;
+}
+/* Diana Borrero - Lunes 10 de agosto */
