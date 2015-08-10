@@ -143,19 +143,47 @@
 .header_bottom,
 .header_top,
 .fixed_top_header .bottom_header{
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(255,255,255,10);
 }
 
 
+
+
+.header_top,
+.header_bottom,
+.title,
+.drop_down .second .inner ul li,
+.header-widget.widget_nav_menu ul.menu li ul li a,
+.header_top #lang_sel ul li ul li a,
+.header_top #lang_sel ul li ul li a:visited,
+.header_top #lang_sel_click ul li ul li a,
+.header_top #lang_sel_click ul li ul li a:visited,
+.drop_down .second .inner > ul,
+.drop_down .second .inner>ul,
+li.narrow .second .inner ul,
+.drop_down .wide .second ul li,
+.drop_down .second ul li
+	{
+	border-color:#ffffff;
+}
 
 
 
 
 
 header.sticky .header_bottom{
-	background-color: rgba(255,255,255,1) !important;
+	background-color: rgba(255,255,255,10) !important;
 }
 
+
+.header_top,
+.fixed_top_header .top_header,
+.fixed_top_header nav.mobile_menu{
+	background-color: rgba(255,255,255,10);
+}
+header.sticky .header_top{
+	background-color: rgba(255,255,255,0.7);
+}
 
 
 
@@ -172,18 +200,50 @@ header.sticky .header_bottom{
 
         header.fixed_hiding .q_logo a,
         header.fixed_hiding .q_logo{
-            max-height: 52px;
+            max-height: 35px;
         }
 
 
 
 
-    .touch section.parallax_section_holder{
-		height: auto !important;
-		min-height: 300px;  
-		background-position: center top !important;  
-		background-attachment: scroll;
-        background-size: cover;
+
+
+
+    .drop_down .second .inner ul,
+    .drop_down .second .inner ul li ul,
+	.shopping_cart_dropdown,
+    li.narrow .second .inner ul,
+	.header_top .right #lang_sel ul ul,
+    .drop_down .wide .second ul li.show_widget_area_in_popup .widget,
+	.drop_down .wide.wide_background .second{
+    background-color: #ffffff;
+    background-color: rgba(255,255,255,1);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	@media only screen and (max-width: 1000px){
+		.header_bottom,
+		nav.mobile_menu,
+		header.fixed_top_header .top_header{
+			background-color: #ffffff !important;
+		}
 	}
 
 
@@ -196,34 +256,59 @@ header.sticky .header_bottom{
 
 
 
+.qbutton,
+.qbutton.medium,
+#submit_comment,
+.load_more a,
+.blog_load_more_button a,
+.post-password-form input[type='submit'],
+input.wpcf7-form-control.wpcf7-submit,
+input.wpcf7-form-control.wpcf7-submit:not([disabled]),
+.woocommerce table.cart td.actions input[type="submit"],
+.woocommerce input#place_order,
+.woocommerce-page input[type="submit"]
+	{
+	color: #ffffff; 	
+    
+							background-color: #ee223e; 						 border-width: 0px;	}
+
+	.qbutton:hover,
+	.qbutton.medium:hover,
+	#submit_comment:hover,
+	.load_more a:hover,
+	.blog_load_more_button a:hover,
+	.post-password-form input[type='submit']:hover,
+	input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
+    .woocommerce table.cart td.actions input[type="submit"]:hover,
+    .woocommerce input#place_order:hover,
+    .woocommerce-page input[type="submit"]:hover
+	{
+	 color: #373737; 
+		}
+
+	.qbutton:hover,
+	#submit_comment:hover,
+	.load_more a:hover,
+	.blog_load_more_button a:hover,
+	.post-password-form input[type='submit']:hover,
+	input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
+    .woocommerce table.cart td.actions input[type="submit"]:hover,
+    .woocommerce input#place_order:hover,
+    .woocommerce-page input[type="submit"]:hover
+	{
+		 background-color: #373737; 			}
+	.qbutton.white{
+
+				background-color: #373737; 	}
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.google_map{
+	height: 750px;
+}
 
 
 
@@ -313,6 +398,8 @@ header.sticky .header_bottom{
 
 
 
+    .portfolio_main_holder .item_holder.thin_plus_only .thin_plus_only_icon {
+        font-family:     }
 
 
 
@@ -405,12 +492,20 @@ header.sticky .header_bottom{
 
 
 
+    .masonry_gallery_item.square_big .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
 
 
+    .masonry_gallery_item.square_small .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
 
 
+    .masonry_gallery_item.rectangle_portrait .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
 
 
+    .masonry_gallery_item.rectangle_landscape .masonry_gallery_item_inner .masonry_gallery_item_content{
+    text-align: center;    }
 
 
 

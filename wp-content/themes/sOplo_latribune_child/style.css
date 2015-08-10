@@ -1,11 +1,10 @@
 /*
-Theme Name: Bridge Child
-Theme URI: http://demo.qodeinteractive.com/bridge/
-Description: A child theme of Bridge Theme
-Author: Qode Interactive
-Author URI: http://www.qodethemes.com/
+Theme Name: sOplo_La_tribune_child
+Description: Theme de développement d'un site web 
+Author: sOplo Digital
+Author URI: http://soplo-digital.com/
 Version: 1.0.0
-Template: bridge
+Template: Soplo - la tribune
 */
-@import url("../bridge/style.css");
+@import url("../sOplo_latribune/style.css");
 

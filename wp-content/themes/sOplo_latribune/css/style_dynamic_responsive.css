@@ -2,7 +2,11 @@
 		.header_bottom {
 		background-color: #ffffff;
 	}
-			
+				.header_bottom,
+		nav.mobile_menu{
+				background-color: #ffffff !important;
+		}
+		
 	}
 @media only screen and (min-width: 480px) and (max-width: 768px){
 	

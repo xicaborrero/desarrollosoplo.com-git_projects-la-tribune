@@ -29,8 +29,8 @@ var add_for_admin_bar = 0;
 
 var logo_height = 130; // proya logo height
 var logo_width = 280; // proya logo width
-	logo_height = 104;
-	logo_width = 328;
+	logo_height = 70;
+	logo_width = 175;
 	
 	header_top_height = 0;
 var loading_text;
@@ -89,9 +89,10 @@ function initialize() {
 			style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
 			position: google.maps.ControlPosition.LEFT_CENTER
 		},
-				mapTypeId: google.maps.MapTypeId.ROADMAP
+				mapTypeId: 'qode_style'
 			};
 	map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+	  map.mapTypes.set('qode_style', qodeMapType);
 	}
 
 function codeAddress(data) {
@@ -116,7 +117,7 @@ function codeAddress(data) {
 			var marker = new google.maps.Marker({
 				map: map, 
 				position: results[0].geometry.location,
-								icon:  'http://demo.qodeinteractive.com/bridge/wp-content/themes/bridge/img/pin.png',
+								icon:  'http://localhost/la-tribune/wp-content/themes/sOplo_latribune/img/pin.png',
 								title: data['store_title']
 			});
 			google.maps.event.addListener(marker, 'click', function() {
@@ -144,7 +145,7 @@ function showContactMap() {
 		codeAddress("");
 		codeAddress("");
 		codeAddress("");
-		codeAddress("Museum of the City of New York, New York, USA");
+		codeAddress("");
 	}
 }
 
