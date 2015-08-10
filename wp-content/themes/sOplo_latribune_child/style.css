@@ -4,7 +4,15 @@ Description: Theme de développement d'un site web
 Author: sOplo Digital
 Author URI: http://soplo-digital.com/
 Version: 1.0.0
-Template: Soplo - la tribune
+Template: sOplo_latribune
 */
 @import url("../sOplo_latribune/style.css");
 
+
+
+.lt_txt_white {
+	color: #fff;
+}
+.lt_space_box {
+	padding: 
+}
