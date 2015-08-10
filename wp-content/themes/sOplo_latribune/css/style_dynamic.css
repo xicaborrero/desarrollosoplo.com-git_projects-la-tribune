@@ -268,38 +268,27 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
 .woocommerce input#place_order,
 .woocommerce-page input[type="submit"]
 	{
-	color: #ffffff; 	
+	
     
-							background-color: #ee223e; 						 border-width: 0px;	}
+		font-size: 12pxpx; 				font-style: normal; 		font-weight: 900; 			border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 			text-transform: uppercase; 	 border-width: 0px;	}
 
-	.qbutton:hover,
-	.qbutton.medium:hover,
-	#submit_comment:hover,
-	.load_more a:hover,
-	.blog_load_more_button a:hover,
-	.post-password-form input[type='submit']:hover,
-	input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
-    .woocommerce table.cart td.actions input[type="submit"]:hover,
-    .woocommerce input#place_order:hover,
-    .woocommerce-page input[type="submit"]:hover
-	{
-	 color: #373737; 
-		}
 
-	.qbutton:hover,
-	#submit_comment:hover,
-	.load_more a:hover,
-	.blog_load_more_button a:hover,
-	.post-password-form input[type='submit']:hover,
-	input.wpcf7-form-control.wpcf7-submit:not([disabled]):hover,
-    .woocommerce table.cart td.actions input[type="submit"]:hover,
-    .woocommerce input#place_order:hover,
-    .woocommerce-page input[type="submit"]:hover
-	{
-		 background-color: #373737; 			}
+	.qbutton.small{
+
+								border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
+	}
+	.qbutton.large{
+
+								border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
+	}
+	.qbutton.big_large,
+	.qbutton.big_large_full_width {
+
+								border-radius: 13px; 		-moz-border-radius: 13px; 		-webkit-border-radius: 13px; 
+	}
 	.qbutton.white{
 
-				background-color: #373737; 	}
+			color: #ffffff; 		}
 
 
 
@@ -311,6 +300,29 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
 }
 
 
+	.footer_top_holder,	footer #lang_sel > ul > li > a,	footer #lang_sel_click > ul > li > a{
+		background-color: #3b3b3b;
+	}
+	footer #lang_sel ul ul a,footer #lang_sel_click ul ul a,footer #lang_sel ul ul a:visited,footer #lang_sel_click ul ul a:visited{
+		background-color: #3b3b3b !important;
+	}
+
+
+.footer_top .column_inner > div h2,
+.footer_top .column_inner > div h3,
+.footer_top .column_inner > div h4,
+.footer_top .column_inner > div h5,
+.footer_top .column_inner > div h6 {
+	color:#989898;
+}
+	.footer_top,
+	.footer_top p,
+    .footer_top span,
+    .footer_top li,
+    .footer_top .textwidget,
+    .footer_top .widget_recent_entries>ul>li>span {
+		color: #ffffff;
+	}
 
 
 
@@ -321,8 +333,20 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
 
 
 
-
-
+	.footer_top .footer_col1,
+	.footer_top .container_inner > .widget,
+	.footer_top.footer_top_full > .widget{
+		text-align: left;
+	}
+	.footer_top .footer_col2{
+		text-align: left;
+	}
+	.footer_top .footer_col3{
+		text-align: left;
+	}
+	.footer_top .footer_col4{
+		text-align: left;
+	}
 
 
 

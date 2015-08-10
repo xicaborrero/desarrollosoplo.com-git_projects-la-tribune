@@ -16,3 +16,10 @@ Template: sOplo_latribune
 .lt_space_box {
 	padding: 
 }
+.lt_center {
+	text-align: center;
+}
+.lt_btn_red, .qbutton.green {
+	background-color: #ee223e;
+	color: #fff;
+}
