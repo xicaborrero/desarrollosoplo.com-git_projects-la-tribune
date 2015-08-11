@@ -157,7 +157,7 @@
     .blog_holder.blog_large_image_with_dividers article.format-link .post_text span.link_mark,
     .blog_holder.blog_large_image_with_dividers article.format-quote .post_text .quote_author,
     .animated_icon_inner i {
-        color: #ffffff    }
+        color: #3b3b3b    }
 
     .q_box_holder.with_icon,
     .q_icon_with_title .icon_holder .fa-stack,
@@ -165,7 +165,7 @@
     .q_font_awsome_icon_square,
     .q_font_awsome_icon_stack i.fa-stack-base,
     .animated_icon_inner i {
-        border-color: #ffffff    }
+        border-color: #3b3b3b    }
 
     
     body{
@@ -379,6 +379,22 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
     .footer_top .widget_recent_entries>ul>li>span {
 		color: #ffffff;
 	}
+    .footer_top a
+	{
+        color: #ffffff !important;
+    }
+
+    .footer_top .q_social_icon_holder .simple_social {
+        color: #ffffff;
+    }
+    .footer_top a:hover
+	{
+        color: #bcbcbc !important;
+    }
+
+    .footer_top .q_social_icon_holder:hover .simple_social {
+        color: #bcbcbc;
+    }
 
 
 
@@ -493,21 +509,50 @@ input.wpcf7-form-control.wpcf7-submit:not([disabled]),
 
 
 
-												
+														.qode_search_form i,
+		.qode_search_form .container input {
+			color: #3b3b3b;		}
+		
+
+
+	.qode_search_form_2 input[type="text"],
+	.qode_search_form_2 input[type="text"]:focus,
+	.qode_search_form_3 input[type="text"],
+	.qode_search_form_3 input[type="text"]:focus,
+	.fullscreen_search_holder .search_field,
+	.fullscreen_search_holder .search_field:focus,
+	.qode_search_form input, 
+	.qode_search_form input:focus{
+		color: #3b3b3b    }
 
 
 
 
+	.fullscreen_search_holder .search_label{
+		color: #3b3b3b    }
+
+
+    .qode_search_form_2 .qode_search_submit,
+	.qode_search_form_3 .qode_search_close a,
+	.fullscreen_search_holder .search_submit,
+	.qode_search_form  i{
+		color: #3b3b3b;
+    }
 
 
 
 
+    .fullscreen_search_holder .field_holder{
+		border-color: #3b3b3b;
+    }
 
 
-
-
-
-
+    .fullscreen_search_holder .close_container a,
+	.fullscreen_search_close,
+	.qode_search_form_3 .qode_search_close a,
+	.qode_search_form  .qode_search_close i{
+		color: #3b3b3b;
+    }
 
 
 
