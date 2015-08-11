@@ -57,7 +57,7 @@ Template: sOplo_latribune
 .image_with_text h1, .image_with_text h2, .image_with_text h3, .image_with_text h4, .image_with_text h5 {
 	font-weight: bold;
 }
-.background-position-costume {
-	
+#slider_partenaires_medias .qode_carousels .slides>li {
+	margin: 0 20px;
 }
 /* Diana Borrero - Lunes 10 de agosto */
