@@ -170,7 +170,7 @@
     
     body{
     	    	    	font-family: 'Lato', sans-serif;
-    	    	    	    	    }
+    	    	 color: #3b3b3b;     	    	    }
             body,
 		.wrapper,
         .content,
@@ -277,10 +277,17 @@ header.sticky .header_top{
     }
 
 
+nav.main_menu > ul > li > a{
+	 color: #3b3b3b; 		    				}
 
 
 
+nav.main_menu ul li:hover a {
+	 color: #e4233d; }
 
+		nav.main_menu ul li.active a {
+			color: #e4233d		}
+	
 
 
 
@@ -305,6 +312,71 @@ header.sticky .header_top{
 
 
 
+    p{
+    	color: #3b3b3b;    	    		font-family: 'Lato', sans-serif;
+    	    	    	    	    	    	    	    }
+    .filter_holder ul li span,
+    blockquote h5,
+    .q_social_icon_holder .simple_social,
+    .header-widget.widget_nav_menu ul.menu li a,
+    .side_menu a,
+    .side_menu li,
+    .side_menu span,
+    .side_menu p,
+    .side_menu .widget.widget_rss li a.rsswidget,
+    .side_menu #wp-calendar caption,
+    .side_menu #wp-calendar th, 
+    .side_menu #wp-calendar td,
+    aside .widget #lang_sel_list li a,
+    aside .widget #lang_sel li a,
+    aside .widget #lang_sel_click li a,
+    section.side_menu #lang_sel_list li a,
+    section.side_menu #lang_sel li a,
+    section.side_menu #lang_sel_click li a,
+    footer #lang_sel_list li a,
+    footer #lang_sel li a,
+    footer #lang_sel_click li a,
+    footer #lang_sel_list.lang_sel_list_horizontal a,
+    footer #lang_sel_list.lang_sel_list_vertical a,
+    .side_menu #lang_sel_list.lang_sel_list_horizontal a,
+    .side_menu #lang_sel_list.lang_sel_list_vertical a,
+    #lang_sel_footer a{
+    	color: #3b3b3b;    }
+    .header_top #lang_sel > ul > li > a, 
+    .header_top #lang_sel_click > ul > li> a,
+    footer #lang_sel ul li a,
+    footer #lang_sel ul ul a,
+    footer #lang_sel_click ul li a,
+    footer #lang_sel_click ul ul a,
+    footer #lang_sel_click ul ul a span,
+    section.side_menu #lang_sel ul li a,
+    section.side_menu #lang_sel ul ul a,
+    section.side_menu #lang_sel ul ul a:visited,
+    section.side_menu #lang_sel_click > ul > li > a,
+    section.side_menu #lang_sel_click ul ul a,
+    section.side_menu #lang_sel_click ul ul a:visited{
+    	color: #3b3b3b !important;    }
+    a, p a{
+	color: #ee223e;			}
+
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
+.q_icon_with_title .icon_with_title_link,
+.blog_holder article .post_description a:hover,
+.blog_holder.masonry article .post_info a:hover,
+.breadcrumb .current,
+.breadcrumb a:hover,
+.portfolio_social_holder a:hover,
+.latest_post_inner .post_infos a:hover{
+    color: #ee223e;}
+a:hover,p a:hover,
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
+.q_tabs .tabs-nav li a:hover,
+.q_icon_with_title .icon_with_title_link:hover,
+.blog_holder article .post_description a:hover,
+.blog_holder.masonry article .post_info a:hover,
+.portfolio_social_holder a:hover,
+.latest_post_inner .post_infos a:hover{
+	color: #ed435a;	}
 
 
 

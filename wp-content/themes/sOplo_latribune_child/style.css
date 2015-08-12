@@ -36,10 +36,8 @@ Template: sOplo_latribune
 
 .slider_partenaires_medias .qode_carousels .slides>li {margin: 0 20px;}
 .slider_partenaires_medias .qode_carousels {margin: 65px 0 40px 0;}
-nav.main_menu>ul>li>a, .search_button  {color: #3b3b3b!important;}
-nav.main_menu>ul>li>a:hover {color: #ee223e!important;}
 .search_button {border-left: 2px solid #3b3b3b;padding: 0 0 0 20px!important;}
-.separator.transparent {margin: 0!important;}
+.footer_inner .separator.transparent {margin: 0!important;}
 .footer_top h5 {margin: 0 0 15px;}
 .four_columns>.column4 {width: 30%;}
 .four_columns>.column3 {width: 20%;}
