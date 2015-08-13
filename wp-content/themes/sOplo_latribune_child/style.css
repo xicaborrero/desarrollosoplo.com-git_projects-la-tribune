@@ -53,6 +53,9 @@ Template: sOplo_latribune
 /* Diana Borrero - Martes 11 de agosto */
 
 
+
+/* Diana Borrero - Miercoles 12 de agosto */
+
 .accordion .tab-title:hover {}
 .fm-map-container a {display: none!important;}
 .q_image_with_text_over .desc {opacity: 10!important;}
@@ -62,7 +65,10 @@ Template: sOplo_latribune
 .cf7_custom_style_1 input[type="text"], .cf7_custom_style_1 input[type="email"], .cf7_custom_style_1 span textarea {background-color: #f2f2f2!important;color: #3b3b3b!important;font-style: italic;}
 .cf7_custom_style_1 {margin: 20px;}
 
+/* Diana Borrero - Miercoles 12 de agosto */
 
+
+/* Diana Borrero - Jueves 13 de agosto */
 
 .q_tabs .tabs-nav li {padding: 0 40px;border: 2px solid #fff;color: #fff;text-align: center;border-radius: 25px;margin: 0 8px;}
 .q_tabs .tabs-nav li.active {background-color: #ee223e;color: #fff;}
@@ -71,4 +77,23 @@ Template: sOplo_latribune
 .q_tabs.horizontal .tabs-nav li:first-child a {padding-left: 10px;}
 .q_tabs .tabs-nav li:first-child {margin-left: 0;}
 .q_tabs .tabs-nav li:last-child {margin-right: 0;}
+.tabs-container label {line-height: 17px;display:block;color: #fff;}
+.tabs-container form select, .tabs-container form input[type="text"] {height: 35px;}
+input.wpcf7-form-control.wpcf7-submit {padding: 0;}
+.tabs-container form .wpcf7-file {margin: 0 16% 52px 0;height: 225px;width: 225px;}
+.lt_form_col_padding_top {padding-top: 18px;}
+.lt_form_row_margin {margin: 15px 0;}
+.lt_form_box_label_input br {display: none;}
+.lt_form_box_label_input {margin: 18px 0;}
+.wpcf7 form.wpcf7-form p {margin-bottom: 0px!important;}
+/* Diana Borrero - Jueves 13 de agosto */
+
+
+
+
+
+
+
+
+
 
