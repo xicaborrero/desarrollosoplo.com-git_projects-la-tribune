@@ -61,3 +61,14 @@ Template: sOplo_latribune
 .q_image_with_text_over p {line-height: 20px!important}
 .cf7_custom_style_1 input[type="text"], .cf7_custom_style_1 input[type="email"], .cf7_custom_style_1 span textarea {background-color: #f2f2f2!important;color: #3b3b3b!important;font-style: italic;}
 .cf7_custom_style_1 {margin: 20px;}
+
+
+
+.q_tabs .tabs-nav li {padding: 0 40px;border: 2px solid #fff;color: #fff;text-align: center;border-radius: 25px;margin: 0 8px;}
+.q_tabs .tabs-nav li.active {background-color: #ee223e;color: #fff;}
+.q_tabs .tabs-nav li.active a, .q_tabs .tabs-nav li.active a:hover {color: #fff;}
+.q_tabs .tabs-nav li a {height: 35px;line-height: 35px;}
+.q_tabs.horizontal .tabs-nav li:first-child a {padding-left: 10px;}
+.q_tabs .tabs-nav li:first-child {margin-left: 0;}
+.q_tabs .tabs-nav li:last-child {margin-right: 0;}
+
