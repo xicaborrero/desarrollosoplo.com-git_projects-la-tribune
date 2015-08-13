@@ -6381,3 +6381,9 @@ function alterWPMLSwitcherHeaderBottom() {
 
     }
 }
+
+
+
+
+
+
