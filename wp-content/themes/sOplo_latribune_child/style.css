@@ -80,12 +80,18 @@ Template: sOplo_latribune
 .tabs-container label {line-height: 17px;display:block;color: #fff;}
 .tabs-container form select, .tabs-container form input[type="text"] {height: 35px;}
 input.wpcf7-form-control.wpcf7-submit {padding: 0;}
-.tabs-container form .wpcf7-file {margin: 0 16% 52px 0;height: 225px;width: 225px;}
+.tabs-container #tab-1439495937231-3-9 form .wpcf7-file {margin: 0 16% 52px 0;height: 225px;width: 225px;}
 .lt_form_col_padding_top {padding-top: 18px;}
 .lt_form_row_margin {margin: 15px 0;}
 .lt_form_box_label_input br {display: none;}
 .lt_form_box_label_input {margin: 18px 0;}
 .wpcf7 form.wpcf7-form p {margin-bottom: 0px!important;}
+.q_message .message_text_inner {text-transform: initial;font-size: 14px;}
+.q_message{padding: 15px 40px;}
+.q_message a.close {margin-top: 25px;}
+.q_message .message_text, .q_message .message_text_inner {display: block!important;}
+.lt_no_padding {padding: 0;}
+.tl_box_etiquets .custom_font_holder {padding: 0px 30px!important;margin-right: 8px!important;display: inline-block;border-radius: 13px;color: #fff!important;text-transform: uppercase;}
 /* Diana Borrero - Jueves 13 de agosto */
 
 
